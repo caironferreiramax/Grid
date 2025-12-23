@@ -1,0 +1,28 @@
+.container {
+    display: grid;
+    grid-template-columns: 5fr 2fr 2fr;
+    grid-template-rows: auto auto;
+ 
+    /* align-items: start; 
+    align-content: normal; */
+    /* justify-items: normal;
+    justify-content: normal;   */
+    
+    /* place-content: center end; */
+    /* place-items: start start; */
+
+    gap: 5px; 
+    border: 1px solid blue;
+    width: 95%;
+    height: 40vh;
+}
+
+.item {
+    border: 1px solid red;
+    color: white;
+}
+
+body {
+
+    background-color: rgb(71, 70, 70);
+}
