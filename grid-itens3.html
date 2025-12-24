@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid 3</title>
+</head>
+<style>
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    border: 1px solid red;
+    height: 400px;
+}
+
+.item {
+    border: 1px solid blue;
+    color: black;
+}
+
+body {
+    background-color: gray;
+}
+     
+#itemA {
+    grid-row: 1 / 2;
+    grid-column: 1 / 6;
+    background-color: darkblue;
+}
+
+#itemB {
+    grid-row: 2 / 5;
+    grid-column: 1 / 3;
+    background-color: coral;
+}
+
+#itemC {
+    grid-row: 2 / 5;
+    grid-column: 3 / 6;
+    background-color: bisque;
+}
+
+#itemD {
+    grid-row: 5 / 6;
+    grid-column: 1 / 6;
+    background-color: aqua;
+}
+
+</style>
+<body>
+    <div class="container">
+        <div  id="itemA"  class="item">A</div>
+        <div  id="itemB"  class="item">B</div>
+        <div  id="itemC"  class="item">C</div>
+        <div  id="itemD"  class="item">D</div>
+    </div>
+    
+</body>
+</html>
